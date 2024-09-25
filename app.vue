@@ -101,29 +101,26 @@
 
     <!-- Project Section with Slider -->
     <section id="projects" class="mt-4">
-      <h2 class="text-2xl font-semibold text-blue-700">My Project</h2>
-      <div class="relative mt-4">
-        <div id="carousel" class="flex overflow-x-scroll space-x-4">
-          <div class="flex-none w-full">
-            <img src="./assets/img/design.jpg" alt="Design Project" class="w-full h-48 object-cover rounded-lg">
-          </div>
-          <div class="flex-none w-full">
-            <img src="./assets/img/web.jpg" alt="Web Project" class="w-full h-48 object-cover rounded-lg">
-          </div>
-          <div class="flex-none w-full">
-            <img src="./assets/img/branding.jpg" alt="Branding Project" class="w-full h-48 object-cover rounded-lg">
-          </div>
-          <div class="flex-none w-full">
-            <img src="./assets/img/github.jpg" alt="GitHub Project" class="w-full h-48 object-cover rounded-lg">
-          </div>
-        </div>
-        <button @click="prevSlide" class="absolute top-1/2 left-0 bg-blue-500 text-white px-4 py-2 rounded-full -translate-y-1/2">&lt;</button>
-        <button @click="nextSlide" class="absolute top-1/2 right-0 bg-blue-500 text-white px-4 py-2 rounded-full -translate-y-1/2">&gt;</button>
+  <h2 class="text-2xl font-semibold text-blue-700">My Project</h2>
+  <div class="relative mt-4">
+    <div id="carousel" class="flex overflow-x-scroll space-x-4">
+      <div class="flex-none w-72">
+        <img src="./assets/img/public Relations.jpg" alt="Branding" class="w-full h-auto object-cover rounded-lg">
       </div>
-      <div class="mt-4 text-center">
-        <a href="https://www.figma.com/design/L3IvXz6aCWxeCHn9irfCVJ/UAS-UI-UX?node-id=0-1&node-type=canvas&t=0eH7NZsNhPQ3aECK-0" target="_blank" class="inline-block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">View Full Project on Figma</a>
+      <div class="flex-none w-72">
+        <img src="./assets/img/release your pontential.jpg" alt="Branding" class="w-full h-auto object-cover rounded-lg">
       </div>
-    </section>
+      <div class="flex-none w-72">
+        <img src="./assets/img/public speaking.jpg" alt="Branding" class="w-full h-auto object-cover rounded-lg">
+      </div>
+      <div class="flex-none w-72">
+        <img src="./assets/img/communication.jpg" alt="Branding" class="w-full h-auto object-cover rounded-lg">
+      </div>
+    </div>
+    <button @click="prevSlide" class="absolute top-1/2 left-0 bg-blue-500 text-white px-4 py-2 rounded-full -translate-y-1/2">&lt;</button>
+    <button @click="nextSlide" class="absolute top-1/2 right-0 bg-blue-500 text-white px-4 py-2 rounded-full -translate-y-1/2">&gt;</button>
+  </div>
+</section>
 
     <!-- Contact Section -->
     <section class="bg-blue-100 p-4 mt-4 rounded-lg shadow">
